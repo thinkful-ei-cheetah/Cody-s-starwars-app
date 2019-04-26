@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "alias": "Codys-starwars-app",
+    "name": "starwars-app",
+    "routes": [
+        {
+            "src": "^/static/(.*)",
+            "dest": "/static/$1"
+        },
+        {
+            "src": ".*",
+            "dest": "/index.html"
+        }
+    ]
+}
